@@ -1,0 +1,37 @@
+.hover-effect {
+    opacity: 1;
+    transition: 3s;
+    border-radius: 3px;
+}
+
+.hover-effect:hover {
+    opacity: .5;
+}
+
+img:first-child {
+    filter: grayscale(100%);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header {
+    border-bottom: 1px solid;
+}
+
+header li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header li a:hover {
+    background-color: blue;
+    color: white
+}
