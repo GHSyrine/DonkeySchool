@@ -118,24 +118,16 @@ label,
         display: flex;
 
 
-
     }
 
-    .logo {
-        width: 100px;
-    }
-
-    .projectimg {
-        width: 250px;
 
     }
-
-    footer {
-        text-align: center;
+:root {
+    --couleur-fond :black;
+   }
     }
+    
     body {
-        background-color: #1c1c1e;
-        color: #fefefe;
-    }
+        background-color: var(--couleur-fond)
 
 }
